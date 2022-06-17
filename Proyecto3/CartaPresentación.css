@@ -1,0 +1,68 @@
+* { margin: 0; box-sizing: border-box; }
+body { font-family: Arial, Helvetica, sans-serif; background-color: #4f5e8680;}
+.card{
+    width: 330px;
+    min-height: 400px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 150px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 20px #33df819c;
+    background-image: linear-gradient(to top, #33df819c 0%, #a6c1ee 100%);
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #170a44;
+    padding: 0.1px;
+}
+.card_person{
+    background-image: url('Jafet.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 110px;
+    height: 110px;
+    margin: 0 auto;
+    margin-top: 105px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+.card_name{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.card_position{
+    display: inline-block;
+    border-bottom: 1px solid #170a44;
+}
+.card_media{
+    margin-top: 40px;
+    width: 100%;
+    height: 90px;
+    border-top: 1px solid #4f5e8680;
+    display: flex;
+    justify-content: center;
+}
+.card_icon{
+    width: 25%;
+    height: 100px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+}
+.card_icon--fb{
+    background-image: url('icons/facebook.svg');
+}
+
+.card_icon--insta{
+    background-image: url('icons/insta.svg');
+}
+
+.card_icon--gh{
+    background-image: url('icons/github.svg');
+}
+
+.card_icon--Yt{
+    background-image: url('icons/youtube.svg');
+}
